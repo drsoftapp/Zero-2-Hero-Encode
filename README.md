@@ -10,3 +10,9 @@ The recording of the Lession on YouTube:
 -- Lession 1: https://youtu.be/2lLae6sOzfM
 -- Lession 2: https://youtu.be/UZCENV1pWj8
 -- Lession 3: 
+---***---
+Contact information:
+*** Discord username: LucidHoang#8888
+*** Telegram: @HoangAnhCuong
+*** Twitter: @lucidhoang
+*** Website: http://lucidhoang.com
