@@ -13,8 +13,8 @@ This is the output from the encode BNB Web3 "Zero to Hero" bootcamp
 # The recording of the Lession on YouTube:
 1. Lession 1: https://youtu.be/2lLae6sOzfM
 2. Lession 2: https://youtu.be/UZCENV1pWj8
-3. Lession 3: 
-4. 
+3. Lession 3: https://www.youtube.com/watch?v=kru6pYlyu1k&feature=youtu.be
+4. Lession 4: 
 ...
 ---***---
 
