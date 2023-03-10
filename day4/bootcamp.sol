@@ -1,15 +1,26 @@
 // SPDX-License-Identifier: None
 
-pragma solidity ^0.8.17;
+pragma solidity 0.8.17;
 
 
 contract BootcampContract {
 
     uint256 number;
-    address owner;
+
+    address public owner;
+
+
 
     constructor() {
         owner = msg.sender;
+    }
+
+    function getStrangeAddress() public view returns (address) {
+        if (msg.sender==owner) {
+            return 0x000000000000000000000000000000000000dEaD;
+        } else {
+            return owner;
+        }      
     }
 
 
@@ -20,14 +31,5 @@ contract BootcampContract {
 
     function retrieve() public view returns (uint256){
         return number;
-    }
-
-    function getAddress() external view returns (address){
-        address temp = 0x000000000000000000000000000000000000dEaD;
-        if(msg.sender == owner){
-            return temp;
-        }else{
-            return owner;
-        }
     }
 }
