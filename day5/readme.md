@@ -22,3 +22,33 @@ Useful links relevant to the homework for today:
 Link to obtain an API key to verify contracts: https://bscscan.com/myapikey
 Chainlist filtered to add testnet to your MetaMask: https://chainlist.org/?search=binance&testnets=true
 BNB testnet faucet to get tBNB: https://testnet.bnbchain.org/faucet-smart
+
+*** Verify
+ ** ABICode:
+ 
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "balances",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
